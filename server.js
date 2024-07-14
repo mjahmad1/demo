@@ -2,7 +2,7 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
-const stripe = require('stripe')('your_secret_key');
+const stripe = require('stripe')('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');
 const app = express();
 
 app.use(bodyParser.json());
