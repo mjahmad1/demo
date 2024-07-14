@@ -1,7 +1,7 @@
 // client.js
 
 // আপনার Publishable Key দিয়ে Stripe ইনিশিয়ালাইজ করুন
-const stripe = Stripe('your_publishable_key');
+const stripe = Stripe('pk_test_51PZzciCyC8OWGlHKRThmLWoQvX29CC6L8d6ExLaM6xGYdXSAQ6ksP4yxqKRLHLvNIIw2OdweUNOe2iNXpCHpXH7W00k6g9ZBKG');
 
 // Elements তৈরি করুন
 const elements = stripe.elements();
